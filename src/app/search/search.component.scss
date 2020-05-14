@@ -1,0 +1,38 @@
+.firstdiv{
+    width: 60%;
+    height: 100%;
+    boder: 1px solid black;
+}
+.seconddiv{
+    width: 50%;
+    height: 100%;
+    boder: 1px solid black;
+}
+
+.calendar-wrapper{
+    width: 300px;
+    text-align: center;
+}
+.label{
+    font-size: 15px;
+    font-weight: bold;
+}
+.devotee{
+    // border: 1px solid blue;
+    height: 40%;
+    width:30%;
+}
+::ng-deep .mat-calendar-body-today { display: none;
+color: crimson;
+ }
+ ::ng-deep .mat-calendar-body{
+     color: cyan;
+ }
+::ng-deep .mat-calendar{
+    // background-color: blue;
+    color: brown;
+}
+// .cal{
+//     // background-color: blue;
+//     color: brown;  
+// }

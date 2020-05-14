@@ -1,0 +1,107 @@
+.parent{
+    border: 1px solid lightblue;
+    height: 100%;
+    width: 100%;
+}
+.divflex{
+    border: 1px solid lightblue;
+    height: 100%;
+    width: 100%;
+}
+mat-grid-tile{
+    background-color: lightblue;;
+}
+mat-stroked-button{
+    color: lightcoral;
+}
+.example-full-width{
+    margin-left: 10%;
+    width: 65%;
+    // border-color: lightblue;
+}
+.devotee{
+    border: 2px solid lightblue;
+}
+.calendar{
+    border: 2px solid lightblue;
+    height: 100%;
+}
+.seva{
+    border: 2px solid lightblue;
+    // height: 100%;  
+}
+.dropdown{
+    text-align: center;
+}
+mat-card-header {
+    background-color: rgb(14, 174, 228);
+    text-align: center;
+}
+::ng-deep .select{
+    color: lightcyan;
+}
+::ng-deep .mat-calendar-body-today { 
+    // display: none;
+    color:red;
+    background-color:  rgb(14, 174, 228);
+     }
+     ::ng-deep .mat-calendar-body{
+         color:  rgb(14, 174, 228);
+     }
+    ::ng-deep .mat-calendar{
+        // background-color: blue;
+        color:  rgb(14, 174, 228);
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    ::ng-deep .mat-calendar-body-label ng-star-inserted{
+        color:  rgb(14, 174, 228);
+    
+    }
+    
+    tr.mat-header-row{
+        background-color: rgb(14, 174, 228);
+    }
+    .mat-calendar-body-cell-content{
+        background-color:  rgb(14, 174, 228);
+    }
+    .container{
+        margin-top: 2%;
+        margin-left: 1.5%;
+    }
+    .example-container {
+        height: 400px;
+        overflow: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+      
+      table {
+        width: 100%;
+      }
+      .data{
+        margin-top: 2%;
+        margin-left: 15%;
+        // text-align: center;
+      }
+      .label{
+          font-size: large;
+          font-weight: bolder;
+      }
+      .lbl{
+        font-size: large;
+      }
+      .clear-button {
+        // height: 50px; 
+        // width: 150px;
+        // font-size: 110%;
+        border: 2px solid red;
+        border-radius: 100px 100px 100px 100px;
+    } 
+    .next-button {
+        border-radius: 100px 100px 100px 100px;
+        border: 2px solid rgb(14, 174, 228);
+    }
+    .mat-select-panel {
+        background: red;
+    }
